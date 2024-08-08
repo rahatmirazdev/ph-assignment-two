@@ -227,3 +227,38 @@ header {
   font-weight: 900;
   margin-bottom: 8px;
 }
+
+.change-your-habits {
+  margin-top: 100px;
+}
+
+.change-your-habits-content {
+  text-align: center;
+  max-width: 671px;
+  margin: 0 auto;
+}
+
+.change-your-habits-description {
+  margin: 14px 0 58px;
+}
+
+.change-your-habits-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.change-your-habits-card {
+  text-align: center;
+  max-width: 231px;
+}
+
+.change-your-habits-card > img {
+  border-radius: 50%;
+  border: 10px solid #ffffff10;
+  margin: 0 25px 30px 25px;
+}
+
+.change-your-habits-card-title {
+  margin-bottom: 6px;
+}
