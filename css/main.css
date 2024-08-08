@@ -1,0 +1,229 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@font-face {
+  font-family: "Miama";
+  src: url(../fonts/Miama-Regular.ttf);
+}
+
+:root {
+  --primary-color: #e6533c;
+  --heading-half-opacity-color: #ffffff80;
+}
+
+/* reseting css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 57.6px;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 33.6px;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  color: var(--heading-half-opacity-color);
+}
+
+/* container */
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* shared components */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 16px 46px;
+  border-radius: 42px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-outline {
+  background-color: transparent;
+  padding: 16px 48.5px;
+  border-radius: 42px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  cursor: pointer;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+/* header */
+
+header {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgb(17, 17, 17) 60%,
+    rgb(17, 17, 17) 0%,
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 57px 0 32px;
+}
+
+.navbar .logo {
+  color: var(--primary-color);
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 120%;
+  font-style: italic;
+}
+
+.nav-links {
+  display: flex;
+  gap: 47px;
+  padding: 8px;
+  border: 1px solid #ffffff20;
+  border-radius: 46px;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 46px;
+}
+
+.nav-link:last-child {
+  padding: 8px 20px;
+}
+
+.nav-links .active {
+  background-color: #e6533c;
+  font-weight: bold;
+  padding: 8px 20px;
+}
+
+.mobile-menu-icon {
+  display: none;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.banner-content {
+  max-width: 520px;
+}
+
+.banner-content .banner-title {
+  font-size: 4.875rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+
+.banner-content .banner-title > span {
+  font-family: "Miama", sans-serif;
+}
+
+.banner-description {
+  margin: 22px 0 40px;
+}
+
+.banner > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 14px;
+}
+
+.banner-img {
+  position: relative;
+}
+
+.banner-card-one {
+  display: flex;
+  gap: 12px;
+  padding: 20px 23px;
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: #3030308a;
+  width: 206px;
+  position: absolute;
+  left: -113px;
+  bottom: 63px;
+}
+
+.banner-card-two {
+  padding: 20px 23px;
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  background: #3030308a;
+  backdrop-filter: blur(20px);
+  width: 206px;
+  position: absolute;
+  top: 125px;
+  right: -74px;
+}
+
+.banner-card-two .video-numbers {
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin-bottom: 5px;
+}
+
+.play-button {
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.tutorial-numbers > h4 {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
