@@ -1,0 +1,18 @@
+/* Styles for mobile devices up to 576px */
+@media (max-width: 576px) {
+  .mobile-menu-icon {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+  }
+  .banner > .container {
+    flex-direction: column;
+  }
+
+  .banner-content .banner-title {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+  }
+}
