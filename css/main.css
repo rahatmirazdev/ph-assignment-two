@@ -262,3 +262,29 @@ header {
 .change-your-habits-card-title {
   margin-bottom: 6px;
 }
+
+
+.run-extra-mile {
+  margin-top: 142px;
+  background-color: #222222;
+  border-radius: 18px;
+}
+
+.run-extra-mile-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.run-extra-mile-content {
+  max-width: 443px;
+  text-align: left;
+}
+
+.run-extra-mile-description {
+  margin: 14px 0 34px;
+}
+
+.run-extra-mile-content > button {
+  padding: 16px 71px;
+}
