@@ -288,6 +288,10 @@ header {
   padding: 16px 71px;
 }
 
+.run-extra-mile-image img {
+  width: 100%;
+}
+
 .bmi {
   margin-top: 88px;
 }

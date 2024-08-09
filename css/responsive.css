@@ -9,11 +9,25 @@
   .banner > .container {
     flex-direction: column;
   }
-
+  .btn-primary {
+    padding: 16px 20px;
+  }
+  .btn-outline {
+    padding: 16px 20px;
+  }
   .banner-content .banner-title {
     font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
+  }
+
+  .banner-card-one {
+    left: -24px;
+  }
+
+  .banner-card-two {
+    top: 179px;
+    right: -15px;
   }
 
   .change-your-habits-cards {
