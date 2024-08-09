@@ -263,7 +263,6 @@ header {
   margin-bottom: 6px;
 }
 
-
 .run-extra-mile {
   margin-top: 142px;
   background-color: #222222;
@@ -287,4 +286,213 @@ header {
 
 .run-extra-mile-content > button {
   padding: 16px 71px;
+}
+
+.bmi {
+  margin-top: 88px;
+}
+
+.bmi-content {
+  max-width: 671px;
+  margin: 0 auto;
+}
+
+.bmi-description {
+  margin: 17px 0 88px;
+}
+
+.bmi-calculator {
+  background-color: #222222;
+}
+
+.bmi-calculator-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 175px;
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+
+.bmi-calculator-chart {
+  padding-bottom: 52px;
+}
+
+.bmi-calculator-chart-title {
+  margin-bottom: 52px;
+}
+
+.bmi-chart-table > table {
+  width: 310px;
+}
+
+.bmi-chart-table > table,
+th,
+td {
+  border: 1px solid #ffffff10;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.bmi-chart-table th,
+td {
+  padding: 13px 18px;
+}
+
+.bmi-calculator-form {
+  max-width: 577px;
+}
+
+.bmi-calculator-form > h3 {
+  margin-bottom: 14px;
+}
+
+.bmi-calculator-form > p {
+  letter-spacing: 0.3px;
+  margin-bottom: 0;
+  padding-bottom: 34px;
+}
+
+.bmi-form {
+  max-width: 577px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 34px;
+}
+
+.bmi-form > .last-item {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.bmi-form .input-container {
+  position: relative;
+}
+
+.bmi-form .input-container img {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
+
+.bmi-form .input-container > input {
+  width: 100%;
+}
+
+.bmi-form input {
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ffffff1a;
+}
+
+.bmi-form input::placeholder {
+  color: #ffffff70;
+  line-height: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.meet-our-team {
+  margin-top: 88px;
+}
+
+.meet-our-team-content {
+  max-width: 671px;
+  margin: 0 auto;
+}
+
+.meet-our-team-title {
+  margin-bottom: 14px;
+}
+
+.meet-our-team-images {
+  border-radius: 18px;
+  background: #ffffff1a;
+  padding: 12px;
+  margin-top: 58px;
+}
+
+.meet-our-team-images .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(313px, 1fr));
+  gap: 13px;
+}
+
+.meet-our-team-card {
+  position: relative;
+}
+
+.meet-our-team-card img {
+  width: 100%;
+}
+
+.meet-our-team-images .member-info {
+  position: absolute;
+  left: 16px;
+  bottom: 19px;
+}
+
+.meet-our-team-card .member-name {
+  margin-bottom: 3px;
+}
+.meet-our-team-card .post-name {
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #222222;
+  padding-top: 68px;
+  margin-top: 88px;
+  padding-bottom: 30px;
+}
+
+.footer .container .footer-top {
+  justify-content: space-between;
+  padding-bottom: 82px;
+  border-bottom: 2px solid #ffffff1a;
+}
+
+.footer .logo {
+  color: var(--primary-color);
+  font-size: 4.375rem;
+  font-weight: 800;
+  line-height: 120%;
+  font-style: italic;
+}
+
+.footer-description {
+  font-size: 0.875rem;
+  max-width: 443px;
+}
+
+.footer-menu-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 39px;
+}
+
+.footer-menu-items {
+  display: flex;
+  gap: 152px;
+}
+
+.footer-menu-list {
+  display: grid;
+  gap: 20px;
+}
+
+.footer-menu-item {
+  color: #ffffff80;
+  font-size: 1.438rem;
+}
+
+.footer-bottom .copyright {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #ffffff80;
+  margin-top: 36px;
 }
