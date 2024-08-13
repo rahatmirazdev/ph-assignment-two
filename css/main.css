@@ -87,6 +87,14 @@ p {
   border: 1px solid #ffffff;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.hide{
+  display: none;
+}
+
 /* header */
 
 header {
@@ -444,6 +452,28 @@ td {
 }
 .meet-our-team-card .post-name {
   font-size: 14px;
+}
+
+.faq {
+  margin-top: 80px;
+}
+
+.faq-questions-ans{
+  margin-top: 64px;
+}
+
+.faq-container {
+  max-width: 792px;
+  margin: 35px auto 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.faq-question h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
 }
 
 .footer {
